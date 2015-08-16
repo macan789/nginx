@@ -1,9 +1,9 @@
 # nginx
 
-#2015-08-16
 
 #
 cd /root
+
 docker build -t "evada/ubuntu:v1.0" .
 
 #创建容器

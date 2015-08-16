@@ -1,13 +1,7 @@
 # nginx
 
-
-#
-cd /root
-
-docker build -t "evada/ubuntu:v1.0" .
-
 #创建容器
-docker run -it -d -p 10280:80 evada/ubuntu:v1.0 /bin/bash
+docker run -it -d -p 10280:80 evada/nginx:v1.0 /bin/bash
 
 #启动nginx服务
 /usr/sbin/nginx -c /etc/nginx/nginx.conf
